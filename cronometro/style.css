@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(45deg,black, rgb(5, 226, 255));
+    height: 100vh;
+}
+
+button{
+    border: 0px solid;
+    padding: 10px, 20px;
+    font-size: 20px;
+    margin: 8px;
+    color: white;
+    width: 80px;
+    cursor: pointer;     
+    margin-top: 50px;
+
+}
+
+.container{
+    text-align: center;
+}
+
+.startBtn{
+    background-color: green;
+}
+
+.pauseBtn{
+    background-color: grey;
+}
+
+.stopBtn{
+    background-color: red;
+}
+
+.visor{
+    width: 128px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.699);
+    color: white;
+    margin: auto;
+    padding-top: 3px;
+    border-radius: 5px;
+    
+}
+
+.fundo{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: auto;
+    margin-top: 30vh;
+}
